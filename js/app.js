@@ -1,4 +1,19 @@
+/*//background
+window.onload = function () {
 
+    function changeImage() {   
+        var BackgroundImg=["./img/bg1.jpg",
+            "./img/bg2.jpg",
+            "./Img/bg.jpg",
+            "./Img/bg4.jpg"
+        ];
+        var i = Math.floor((Math.random() * 4));
+        document.header.backgroundImage = 'url("' + BackgroundImg[i] + '")';
+        //document.body.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
+    }
+    window.setInterval(changeImage, 5000);
+}
+*/
 //select the element
 const clear = document.querySelector(".clear");
 const dateElement = document.getElementById("date");

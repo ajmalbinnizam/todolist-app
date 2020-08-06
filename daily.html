@@ -1,0 +1,23 @@
+<html>
+<head>
+<style>
+#daily {
+width:100%;
+height:100%;
+}
+</style>
+<script>
+
+</script>
+<body>
+<div id="daily">
+<p>some text</p>
+</div>
+</body>
+backImg[day % backImg.length]
+window.onload = function(){ 
+    var backImg = ['http://example.com/path/image.gif', 'http://example.com/path/image1.gif', 'http://example.com/path/image2.gif', 'http://example.com/path/image3.gif' , 'http://example.com/path/image4.gif'];
+var today = new Date();
+var day = today.getDate();
+document.getElementsByClassName('header').style.backgroundImage = 'url('+backImg[day % backImg.length]+')';
+    }
