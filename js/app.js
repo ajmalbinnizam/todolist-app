@@ -14,7 +14,7 @@ const LINE_THROUGH = "lineThrough";
 let LIST ,id ;
 //get item
 let data = localStorage.getItem("TODO");
-
+//localStorage.clear();
 if(data){
     LIST = JSON.parse(data);
     id = LIST.length;
