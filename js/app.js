@@ -87,10 +87,10 @@ if (event.keyCode == 13){
 }
 });
 function completeTodo(element){
-    element.classlist.toggle(CHECK);
-    element.classlist.toggle(UNCHECK);
+    element.classList.toggle(CHECK);
+    element.classList.toggle(UNCHECK);
     element.parentNode.querySelector(".text").classlist.toggle(LINE_THROUGH);
-    LIST[ element.id].done = list[element.id].done ? false:true;
+    LIST[ element.id].done = LIST[element.id].done ? false:true;
 }
 //remove 
 function removeToDo(element){
