@@ -1,5 +1,7 @@
 # To-Do-List Using vanilla JavaScript
 
+[![todolist](https://ajmalbinnizam.github.io/todolist-app/img/todo.gif)](https://ajmalbinnizam.github.io/todolist-app/)
+
 > The to-do list has a beautiful UI, the user can add a to-do by filling the input and hit ENTER, after that he can rather check the to-do when it's done, or remove it using the delete button.
 
 > The user's to-do list is stored in the local storage, so when he refreshes the page, he can always find the list there.
