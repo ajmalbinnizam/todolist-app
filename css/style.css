@@ -83,6 +83,13 @@ body{
     background-color: #FFF;
     overflow: auto;
 }
+@media screen and (min-width: 360px){
+    .content{
+        height: 36rem;
+        width: 38rem;
+        padding: 5px;
+    }
+}
 .content::-webkit-scrollbar { 
     display: none; 
 }
@@ -140,8 +147,8 @@ body{
 /* ------------ add item ------------ */
 .add-to-do{
     position: relative;
-    width: 360px;
-    height:40px;
+   width: 380px;
+    height: 54px;
     background-color: #FFF;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
