@@ -79,17 +79,28 @@ body{
 .content{
     width:380px;
     height: 350px;
-    max-height:350px;
+
     background-color: #FFF;
     overflow: auto;
 }
-@media screen and (min-width: 360px){
+@media screen and (min-width:360px){
     .content{
-        height: 36rem;
-        width: 38rem;
+        height: 350px;
+        width: 380px;
         padding: 5px;
+ 
     }
-}
+    .fa-tra
+   
+    .add-to-do{
+        height: fit-content;
+
+    }
+    .row{
+        margin-bottom: 0px;
+    }
+    
+
 .content::-webkit-scrollbar { 
     display: none; 
 }
@@ -137,7 +148,7 @@ body{
 .item i.de{
     position: absolute;
     font-size: 25px;
-    right:15px;
+    right:30px;
     top:10px;
 }
 .item i.de:hover{
