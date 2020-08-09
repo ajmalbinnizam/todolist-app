@@ -17,7 +17,7 @@ body{
 .header{
     width: 380px;
     height:200px;
-    background-image: url('/img/bg1.jpg');
+    background-image: url('https://ajmalbinnizam.github.io/todolist-app/img/bg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
@@ -35,16 +35,16 @@ body{
 }
 @keyframes animate{
     0%{
-        background-image:url('/img/bg2.jpg');
+        background-image:url('https://ajmalbinnizam.github.io/todolist-app/img/bg2.jpg');
     }
     20%{
-        background-image:url('/img/bg3.webp');
+        background-image:url('https://ajmalbinnizam.github.io/todolist-app/img/bg3.webp');
     }40%{
-        background-image:url('/img/bg4.jpg');
+        background-image:url('https://ajmalbinnizam.github.io/todolist-app/img/bg4.jpg');
     }60%{
-        background-image:url('/img/mou.jpg');
+        background-image:url('https://ajmalbinnizam.github.io/todolist-app/img/mou.jpg');
     }80%{
-        background-image:url('/img/bg6.png');
+        background-image:url('https://ajmalbinnizam.github.io/todolist-app/img/bg6.png');
     }
 }
 
